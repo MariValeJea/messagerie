@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.messageList {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 15px;
+}
+.public-message, .private-message {
+    border-bottom: 1px dashed darkgrey;
+    margin: 15px;
+}
+
+.messageForm {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.text-area {
+    height: 100px;
+}
+
+
